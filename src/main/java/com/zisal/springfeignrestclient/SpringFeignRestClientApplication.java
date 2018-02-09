@@ -1,11 +1,14 @@
 package com.zisal.springfeignrestclient;
 
 import com.zisal.springfeignrestclient.dto.CheckWeatherResponseDTO;
+import com.zisal.springfeignrestclient.impl.ICheckWeather;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 @SpringBootApplication
+@EnableFeignClients
 public class SpringFeignRestClientApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
