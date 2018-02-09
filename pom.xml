@@ -38,10 +38,6 @@
 			<artifactId>spring-cloud-starter-feign</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>com.netflix.feign</groupId>
 			<artifactId>feign-okhttp</artifactId>
 			<version>${feign.version}</version>
